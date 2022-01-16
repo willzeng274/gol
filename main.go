@@ -15,27 +15,3 @@ func main() {
 
 	http.ListenAndServe(":8090", nil)
 }
-
-// package main
-
-// import (
-// 	"fmt"
-// 	t "test/testmod"
-// )
-
-// func main() {
-// 	fmt.Println("Hello World")
-// 	fmt.Println(Hello)
-// 	t.Ok()
-// 	a := 1
-// 	b := 2
-// 	c1 := make(chan int)
-// 	go func() {
-// 		res := Add(&a, &b)
-// 		c1 <- res
-// 	}()
-// 	select {
-// 	case msg := <-c1:
-// 		fmt.Println(msg)
-// 	}
-// }
